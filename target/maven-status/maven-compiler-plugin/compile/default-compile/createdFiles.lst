@@ -1,0 +1,7 @@
+modelo\IMascotas.class
+modelo\Gato.class
+veterinaria\resources\JakartaEE91Resource.class
+veterinaria\JakartaRestConfiguration.class
+modelo\Mascotas.class
+controlador\Servlet.class
+modelo\Perro.class

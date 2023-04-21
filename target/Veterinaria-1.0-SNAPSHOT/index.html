@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Veterinaria</title>
+    <link href="micss.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <form action="Servlet" method="POST">     
+        <label for="mascota"></label>
+        <input placeholder="Elija el tipo de mascota" type="text" list="mascota" name="tipomasc" id="tipomasc">
+        <datalist id="mascota">   
+            <option value="Gato">
+            <option value="Perro">
+        </datalist>
+        
+        <input type="text" name="nombre" placeholder="Nombre">
+	<input type="text" name="raza" placeholder="Raza de la mascota">
+	<input type="number" name="edad" placeholder="Edad">
+	<input type="text" name="color" placeholder="Color">
+        
+
+        <div id="campo-de-texto" style="display:none;">
+            <label for="nivel"></label>
+            <input placeholder="Nivel de entrenamiento" type="number" name="nivel" id="nivel">
+        </div>
+        <P id="pregunta" style="display:none">¿Libre de toxoplasmosis?</P>
+        <select style="display:none" id="toxo">
+            <option value="si">Si</option>
+            <option value="no">No</option>
+        </select>
+        
+        <button value="agregar">Agregar</button>
+        <button value="eliminar">Eliminar</button>
+        
+        <script>
+            document.getElementById("tipomasc").addEventListener("input", function() {
+                var seleccion = document.getElementById("tipomasc").value;
+                if (seleccion === "Gato") {
+                  document.getElementById("pregunta").style.display = "block";
+
+                  document.getElementById("toxo").style.display = "block";
+                } 
+                if (seleccion === "Perro") {
+
+                  document.getElementById("campo-de-texto").style.display = "block";
+                } 
+            });
+        </script>
+        
+        
+        
+        
+        
+
+            
+    </form>
+    
+
+
+</body>
+</html>
+

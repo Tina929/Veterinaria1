@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1/03/2023, 7:40:36 a. m.
+    Author     : oscar
+*/
+body {
+			background-image: url('https://st2.depositphotos.com/5269633/45807/i/450/depositphotos_458074174-stock-photo-march-2021-display-baby-yoda.jpg');
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			opacity: 1;
+		}
+
+		h1 {
+			color: white;
+			font-size: 72px;
+			text-align: center;
+			margin-top: 150px;
+		}
+                input[type="number"] {
+			display: block;
+                        width: 300px;
+			margin: 0 auto;
+                        border-width: 30px;
+                        margin-bottom: 5px;
+			padding: 10px;
+			font-size: 18px;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+		}
+		input[type="text"] {
+			display: block;
+                        border-width: 30px;
+                        width: 300px;
+			margin: 0 auto;
+                        margin-bottom: 5px;
+			padding: 10px;
+			font-size: 18px;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+		}
+		button {
+			display: block;
+                        border-width: 30px;
+                        width: 300px;
+			margin: 0 auto;
+                        margin-bottom: 5px;
+			padding: 10px;
+			font-size: 18px;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+		}
+                div{
+			display: block;
+                        border-width: 20px;
+                        width: 300px;
+			margin: 0 auto;
+                        margin-bottom: 5px;
+			padding: 10px;
+			font-size: 18px;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+		}
+                select {
+			display: block;
+                        border-width: 30px;
+                        width: 300px;
+			margin: 0 auto;
+                        margin-bottom: 5px;
+			padding: 10px;
+			font-size: 18px;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+		}
+                p {
+			display: block;
+                        
+                        
+			margin: 0 auto;
+                        margin-bottom: 5px;
+			padding: 10px;
+
+			border: none;
+			outline: none;
+		}
